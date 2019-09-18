@@ -1,0 +1,104 @@
+body {
+    background-color: #333333;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#navbar {
+    width: 100%;
+    width: 100%;
+    float: left;
+    margin: 0 0 1em 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+}
+
+center {
+    width: 960px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+p,
+blockquote,
+ul,
+ol {
+    font-size: 18px;
+    line-height: 150%;
+}
+
+#cover {
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.intro .facts .bibliography {
+    min-width: 65ch;
+    max-width: 75ch;
+}
+
+#container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#cover {
+    position: relative;
+}
+
+#textOverImage {
+    position: absolute;
+    top: 80%
+}
+
+#navbar ul {
+    display: inline-block;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: inline-block;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding: 15px;
+    margin: auto;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#center {
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
