@@ -36,6 +36,7 @@ h3 {
     padding-left: 2%;
     font-size: 1em;
     padding-top: 1em;
+    color: tomato;
 }
 
 p,
@@ -51,8 +52,6 @@ ol {
 
 #cover {
     width: 100%;
-    margin-top: 0;
-    padding-top: 0;
 }
 
 .intro .facts .bibliography {
@@ -70,22 +69,22 @@ ol {
     position: relative;
 }
 
+#headingOnPicture {
+    position: relative;
+}
+
 #textOverImage {
     position: absolute;
-    top: 60%;
+    bottom: 0;
     left: 2%;
 }
 
 @media only screen and (max-width: 1122px) {
-    #textOverImage {
-        top: 30%;
-    }
+    #textOverImage {}
 }
 
 @media only screen and (max-width: 800px) {
-    #textOverImage {
-        top: 20%;
-    }
+    #textOverImage {}
 }
 
 #navbar ul {
