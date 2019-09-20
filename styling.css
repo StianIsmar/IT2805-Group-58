@@ -15,16 +15,14 @@ body {
     border-bottom: 1px solid #ccc;
 }
 
-center {
-    width: 960px;
-}
-
 .header {
     font-size: 1em;
 }
 
 h2 {
-    font-size: 1.8em;
+    font-size: 1em;
+    text-align: left;
+    padding-left: 2%;
 }
 
 h5 {
@@ -35,10 +33,7 @@ h3 {
     text-align: left;
     padding-left: 2%;
     font-size: 1.4em;
-    padding-top: 1em;
     color: white;
-    padding-bottom: 0;
-    margin-bottom: 0;
 }
 
 p,
@@ -50,6 +45,14 @@ ol {
     width: auto;
     text-align: left;
     padding-left: 2%;
+}
+
+p ol {
+    padding-left: 10%;
+}
+
+p {
+    float: left;
 }
 
 #cover {
@@ -120,6 +123,14 @@ li a {
     margin: auto;
 }
 
+ol {
+    padding-left: 5%;
+}
+
+ol li {
+    margin: 0.5%;
+}
+
 #center {
     margin: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -145,7 +156,7 @@ body {
 }
 
 .container {
-    width: 50%;
+    width: 20%;
     margin: 0 auto;
 }
 
@@ -197,4 +208,13 @@ hr {
 
 li b {
     color: powderblue;
+}
+
+p {
+    float: left;
+}
+
+.requirements {
+    width: 80%;
+    padding-left: 20%;
 }
