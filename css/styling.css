@@ -1,0 +1,234 @@
+body {
+    background-color: #333333;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#navbar {
+    width: 100%;
+    width: 100%;
+    float: left;
+    margin: 0 0 1em 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+}
+
+.header {
+    font-size: 1em;
+    margin-bottom: 5%;
+}
+
+h2 {
+    font-size: 1em;
+    text-align: left;
+    padding-left: 2%;
+    margin-bottom: -1em;
+}
+
+h5 {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+    padding-left: 2%;
+    font-size: 1.4em;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+p,
+ul,
+ol {
+    font-size: 1.2em;
+    line-height: 130%;
+    width: auto;
+    text-align: left;
+    padding-left: 2%;
+}
+
+p ol {
+    padding-left: 10%;
+    padding-bottom: 2%;
+}
+
+p ol li {
+    margin-bottom: 10px;
+}
+
+p {
+    float: left;
+    margin-bottom: 40px;
+    margin-top: 0.1em;
+}
+
+#cover {
+    width: 100%;
+}
+
+.intro .facts .bibliography {
+    min-width: 65ch;
+    max-width: 75ch;
+}
+
+#container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#cover {
+    position: relative;
+    width: 100%;
+}
+
+#headingOnPicture {
+    position: relative;
+}
+
+#textOverImage {
+    position: absolute;
+    bottom: 0;
+    left: 2%;
+}
+
+@media only screen and (max-width: 1122px) {
+    #textOverImage {}
+}
+
+@media only screen and (max-width: 800px) {
+    #textOverImage {}
+}
+
+#navbar ul {
+    display: inline-block;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.container li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding: 15px;
+    margin: auto;
+}
+
+ol {
+    padding-left: 5%;
+}
+
+ol li {
+    margin: 0.5%;
+}
+
+#center {
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font: 300 100% 'Helvetica Neue', Helvetica, Arial;
+}
+
+.four {
+    width: 60;
+}
+
+.four a {
+    width: 60px;
+}
+
+.container {
+    width: 20%;
+    margin: 0 auto;
+}
+
+ul li {
+    display: inline;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    width: 25%;
+    padding: .75rem 0;
+    margin: 0;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+.one:hover~hr {
+    opacity: 1;
+    margin-left: 5%;
+}
+
+.two:hover~hr {
+    opacity: 1;
+    margin-left: 28%;
+}
+
+.three:hover~hr {
+    opacity: 1;
+    margin-left: 52%;
+}
+
+.four:hover~hr {
+    opacity: 1;
+    margin-left: 75%;
+}
+
+hr {
+    margin-left: 0%;
+    opacity: 0.1;
+    height: .25rem;
+    width: 25%;
+    margin: 0;
+    background: tomato;
+    border: none;
+    transition: .3s ease-in-out;
+}
+
+li b {
+    color: powderblue;
+}
+
+p {
+    float: left;
+}
+
+.mainPart {
+    width: 80%;
+    padding-left: 20%;
+}
+
+#space {
+    color: #333;
+}
