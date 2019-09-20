@@ -17,12 +17,14 @@ body {
 
 .header {
     font-size: 1em;
+    margin-bottom: 5%;
 }
 
 h2 {
     font-size: 1em;
     text-align: left;
     padding-left: 2%;
+    margin-bottom: -1em;
 }
 
 h5 {
@@ -34,10 +36,11 @@ h3 {
     padding-left: 2%;
     font-size: 1.4em;
     color: white;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 p,
-blockquote,
 ul,
 ol {
     font-size: 1.2em;
@@ -49,10 +52,17 @@ ol {
 
 p ol {
     padding-left: 10%;
+    padding-bottom: 2%;
+}
+
+p ol li {
+    margin-bottom: 10px;
 }
 
 p {
     float: left;
+    margin-bottom: 40px;
+    margin-top: 0.1em;
 }
 
 #cover {
@@ -214,7 +224,11 @@ p {
     float: left;
 }
 
-.requirements {
+.mainPart {
     width: 80%;
     padding-left: 20%;
+}
+
+#space {
+    color: #333;
 }
