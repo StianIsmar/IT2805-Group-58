@@ -61,7 +61,7 @@ p ol li {
 
 p {
     float: left;
-    margin-bottom: 40px;
+    margin-bottom: 1em;
     margin-top: 0.1em;
 }
 
@@ -109,7 +109,7 @@ p {
     list-style-type: none;
 }
 
-ul {
+.container ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -170,7 +170,7 @@ body {
     margin: 0 auto;
 }
 
-ul li {
+.container ul li {
     display: inline;
     text-align: center;
 }
@@ -231,4 +231,8 @@ p {
 
 #space {
     color: #333;
+}
+
+.list {
+    margin-left: 40px;
 }
