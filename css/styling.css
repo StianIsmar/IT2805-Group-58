@@ -30,9 +30,12 @@ h2 {
 h5 {
     text-align: center;
 }
-h4{
+
+h4 {
     text-align: left;
+    padding-left: 2%;
 }
+
 h3 {
     text-align: left;
     padding-left: 2%;
@@ -218,6 +221,10 @@ hr {
     transition: .3s ease-in-out;
 }
 
+dl dt {
+    padding-left: 2%;
+}
+
 li b {
     color: powderblue;
 }
@@ -251,16 +258,19 @@ p {
     width: 70%;
 }
 
-table, td, th {  
+table,
+td,
+th {
     border: 1px solid gray;
     text-align: left;
 }
-  
+
 table {
     border-collapse: collapse;
     width: 100%;
 }
-  
-th, td {
+
+th,
+td {
     padding: 15px;
 }
