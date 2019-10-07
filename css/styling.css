@@ -236,3 +236,8 @@ p {
 .list {
     margin-left: 40px;
 }
+
+.space {
+    height: 10px;
+    width: 100%;
+}
