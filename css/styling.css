@@ -242,9 +242,9 @@ p {
     width: 100%;
 }
 
-.image {
+.images {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 92%;
+    width: 70%;
 }
