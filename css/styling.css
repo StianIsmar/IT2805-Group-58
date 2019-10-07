@@ -250,9 +250,17 @@ p {
     margin-right: auto;
     width: 70%;
 }
-table, th, td {
-    border: 1px solid black;
+
+table, td, th {  
+    border: 1px solid gray;
+    text-align: left;
 }
+  
 table {
     border-collapse: collapse;
-  }
+    width: 100%;
+}
+  
+th, td {
+    padding: 15px;
+}
