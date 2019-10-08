@@ -112,6 +112,7 @@
                     <li>
                         <h4>Homepage.html</h4>
                     </li>
+
                     This page will be the first page to open when you click on the website-link. It will consist of a picture representing the warmth and cosy environment of “Antikvariatet”. The image will cover the viewport, and will be scalable by making it 100% of the
                     viewport, both width and height. On top of the image and in the upper part of the website we will place a navbar consisting of the three main categories and a home icon. They will all be clickable buttons which will direct the client
                     to new sites or back to the homepage. We want to make sure the website is responsive and mobile-view friendly. On the main page the user will also be able to click and scroll to change to the view to the “About us”-part with footer.
@@ -123,8 +124,6 @@
                         (JPEG, GIF) and compress images to take up less number of bytes to prevent slow-loading of the page. Responsive design will also prevent this, and we will make the image display size optimal for different end-user devices. On this
                         page, you can choose to click on a “Menu”-button, to see the menu for the restaurant. The menu includes dishes, as well as drinks and beer in the bar. When the Menu shows, the background will be white, and the text will be black,
                         so that it is very easy to read the text with no distractions. There will be different subsections for dishes, snacks and drinks.
-                        <br>
-                        <br>
                         <img class="images" src="./img/restaurant.jpg" />
 
                     </li>
@@ -135,8 +134,6 @@
                         down to a specific date. At the top, there will also be a search-bar, so it is easy to search for one specific event. When the user writes a word in the search field, all event-objects that does not hold this string will be hidden.
                         Take a look at the picture below to see an example. It should be easy to see if there are any available tickets for the events, if there is, there will be a text in green saying “available tickets” just below the event. If the
                         event is sold out, there will be a red text saying “SOLD OUT”. All the events will have button connected to it, on the right side of the page. By clicking the button, you will enter a scheme where you can register to the event.
-                        <br>
-                        <br>
                         <img class="images" src="./img/arrangement.jpg" />
                     </li>
                     <li>
@@ -148,6 +145,25 @@
 
                 </ol>
                 <h3>Minimum Requirements</h3>
+                <h4>The following JavaScript applications will be implemented to complete the minimum requirements:</h4>
+                <ol>
+                    <li>
+                        Kari Anne is responsible for implementing a JavaScript function that lets the user search for specific events on the Events page. This will make it easier for users to find specific events as well as exploring specific dates. It should take input from a 
+                        search field and update the page-content when the search button is clicked or enter has been pressed. It should be possible to search for an artist or name of event. It should also be possible to search for a date.
+                    </li>
+                    <li>
+                        Ophelia is responsible for implementing a JavaScript function that makes the “About Us” section magically appear when the user scrolls down on the homepage. This will be achieved by gradually making the about us text and picture less transparent as the 
+                        user scrolls, until it replaces the text, background and “OM OSS” arrow on the homepage completely. If the user scrolls all the way up again the “About Us” section should disappear by fading out. This is meant to mirror the magical experience at Antikvariatet.  
+                    </li>
+                    <li>
+                        Morten is responsible for implementing a JavaScript function that animates a transition when the “Om oss” arrow on the homepage is clicked. When it is clicked it should move the picture and text smoothly up and out of view. Beneath it, the “About Us” 
+                        text and picture should slide up. In contrast to the previous method, this one is less magical but more evident. It will be helpful to users and make it more clear that this is where they find the information about us.
+                    </li>
+                    <li>
+                        Stian is responsible for implementing the JavaScript function that handles event registration and gives feedback to the user. When the user clicks “Meld på”, a pop-up window appears with details about the event and a fitting picture. The background 
+                        will be blurred out. The user can either choose “Avbryt” or “Meld på” again to cancel or confirm the registration. The pop-up window will disappear and a feedback of going or not going will be provided. 
+                    </li>
+                </ol>
 
                 <h3>Plan</h3>
                 <h4>This is how our files and folders will be organized. </h4>
@@ -155,7 +171,6 @@
                     <dt>homepage.html</dt>
                     <dt>restaurant.html</dt>
                     <dt>events.html</dt>
-                    <dt>about_us.html</dt>
                     <dt>contact.html</dt>
                     <dt>css/</dt>
                     <dd>- styling.css</dd>
@@ -163,8 +178,7 @@
                     <dd>- arrangement.jpg</dd>
                     <dd>- footer.jpg</dd>
                     <dd>- homepage.jpg</dd>
-                    <dd>- mountains.jpg</dd>
-                    <dd>- navigational.gif</dd>
+                    <dd>- navigation.png</dd>
                     <dd>- restaurant.jpg</dd>
                     <dt>modularity/</dt>
                     <dd>- NavBar.part</dd>
@@ -196,11 +210,6 @@
                         <td>events.html</td>
                         <td>Kari Anne</td>
                         <td>25.10</td>
-                    </tr>
-                    <tr>
-                        <td>about_us.html</td>
-                        <td>Ophelia</td>
-                        <td>18.10</td>
                     </tr>
                     <tr>
                         <td>contact.html</td>
