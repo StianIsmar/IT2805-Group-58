@@ -4,7 +4,7 @@ onload = () => {
   document.getElementById("header").innerHTML =
     '<h1>ANTIKVARIATET</h1>' +
     '<div id="nav">' +
-        '<a id="About" href="Homepage.html">About</a>'+
+        '<a id="About" href="Homepage.html">AK</a>'+
         '<a id="Events" href="Events.html">Events</a>'+
         '<a id="Restaurant" href="Restaurant.html">Restaurant</a>'+
         '<a id="Contact" href="Contact.html">Contact</a>'+
