@@ -9,7 +9,25 @@ body {
     font-weight: 400;
 
 }
-
+.fadeIn {
+    animation: fadeEffect 3s;
+    visibility: visible;
+}
+.fadeOut {
+    visibility: hidden;
+}
+.about {
+    animation-direction: reverse; 
+    visibility: hidden;
+}
+@keyframes fadeEffectOut {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opactiry:1;}
+}
 footer {
     display: flex;
     align-items: center;
@@ -53,6 +71,7 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
     line-height: 2;
+    animation: fadeEffect 3s;
 }
 
 h1 {
