@@ -24,6 +24,9 @@ footer .left{
     --padding-top:500px;
     align-items: center;
     justify-content: center;
+    font-weight: lighter;
+    margin: 20px;
+    
 }
 footer .right{
     background-color: #333;
@@ -32,7 +35,6 @@ footer .right{
 .social-media{
     overflow:hidden;
     display:block;
-    margin:auto;
     text-align: center;
     margin-top:40px;
 
@@ -53,11 +55,8 @@ footer .right{
 }
 .contact-us{
     padding-left:10px;
-    margin:auto;
     text-align: center;
     margin-top:100px;
-
-
 
 
 }
