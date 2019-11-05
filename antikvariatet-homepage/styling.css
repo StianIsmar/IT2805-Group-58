@@ -18,9 +18,12 @@ footer {
 }
 footer .left{
     height: 400px;
-    padding-left:50px;
+    --padding-left:50px;
     color: white;
     text-align:center;
+    --padding-top:500px;
+    align-items: center;
+    justify-content: center;
 }
 footer .right{
     background-color: #333;
@@ -30,6 +33,9 @@ footer .right{
     overflow:hidden;
     display:block;
     margin:auto;
+    text-align: center;
+    margin-top:40px;
+
 }
 #instagram, #facebook, #twitter{
     float:center;
@@ -48,6 +54,10 @@ footer .right{
 .contact-us{
     padding-left:10px;
     margin:auto;
+    text-align: center;
+    margin-top:100px;
+
+
 
 
 }
@@ -61,6 +71,9 @@ footer .right{
         }
         .right{
             background-color: #333;
+        }
+        .contact-us{
+            margin-top:120px;
         }
   }
 
