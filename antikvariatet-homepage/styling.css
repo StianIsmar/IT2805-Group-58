@@ -9,12 +9,60 @@ body {
     font-weight: 400;
 
 }
-
+/*----------------------- Footer styling --------------------------*/
 footer {
     display: flex;
+    flex-direction: column;
     align-items: center;
     height: 400px;
 }
+footer .left{
+    height: 400px;
+    padding-left:50px;
+    color: white;
+    text-align:center;
+}
+footer .right{
+    background-color: #333;
+    width: 720px;
+}
+.social-media{
+    overflow:hidden;
+    display:block;
+    margin:auto;
+}
+#instagram, #facebook, #twitter{
+    float:center;
+    margin-left:10px;
+    color:white;
+}
+#instagram {
+    font-size: 1.6em;
+}
+#facebook {
+    font-size: 1.5em;
+}
+#twitter {
+    font-size: 1.5em;
+}
+.contact-us{
+    padding-left:10px;
+    margin:auto;
+
+
+}
+@media screen and (min-width: 1000px) {
+    footer {
+        flex-direction: row;
+    }
+        .left{
+            height:400px;
+            padding-left:50px;
+        }
+        .right{
+            background-color: #333;
+        }
+  }
 
 .footer>div {
     flex: 1;
@@ -24,21 +72,22 @@ input .search {
     text-align: center;
     background-color: red;
 }
-.left {
-    background-color: #333;
-    width: 100%;
-    height: 100%;
-    flex-basis: 1;
-    order: 1;
-}
+    .left {
+        background-color: #333;
+        width: 100%;
+        height: 100%;
+        flex-basis: 1;
+        order: 1;
+    }
 
-.right {
-    background-color: aqua;
-    width: 100%;
-    height: 100%;
-    flex-basis: 720px;
-    order: 2;
+    .right {
+        background-color: aqua;
+        width: 100%;
+        height: 100%;
+        flex-basis: 720px;
+        order: 2;
 }
+/*----------------------- Header styling --------------------------*/
 
 header{
     display: flex;
