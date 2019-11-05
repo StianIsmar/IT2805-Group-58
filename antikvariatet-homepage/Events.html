@@ -1,18 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Events</title>
-    <!-- <script type="text/javascript" src="modularity.js"></script> -->
+    <!-- <script type="text/javascript" src="search_func.js"></script> -->
     <link rel="stylesheet" type="text/css" href="styling.css">
     <script type="text/javascript" src="modularity.js"></script>
 </head>
+<style>
+    .content {
+        align-content: center;
+        background-color: rgb(174, 202, 255);
+    }
+ 
+    .tasks {
+        border-radius: 5px;
+        background-color: lightgrey;
+        padding: 30px;
+        margin-right: 200px;
+        margin-left: 200px;
+        margin-bottom: 60px;
+        margin-top: 60px;
+        text-align: left;
+    } 
+
+    ul {
+        text-align: center;
+        list-style-position: inside;
+        list-style-type: none;
+    }
+
+    .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        padding-top: 100px;
+        /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/ opacity */
+        
+    }
+
+    /* Modal Content */
+    .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+    }
+
+    /* The Close Button */
+    #close {
+        color: #aaaaaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    #close:hover,
+    #close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    #search-field {
+        text-align: center;
+    }
+
+    ul li:hover {
+        color: rgba(141, 140, 140, 0.897);
+        cursor: pointer;
+    }
+
+    input {
+        width: 60vw;
+        height: 30px;
+    }
+
+    input:focus {
+        background-color: rgba(211, 211, 211, 0.425);
+        /* border: 3px solid #555; */
+    }
+</style>
+
 <body>
     <header id="header">
-
     </header>
-    <div id = "footer"></div>
+    <div class="container">
+        <div id='content'>
+            <h1 style="color:black;">Upcoming events</h1><br>
+            <div id=search-field>
+                <h3>Serach for an event:</h3>
+                <input className="search" placeholder="Search for an event..." oninput="filter_search(this.value)">
+                </input>
+                <br>
+            </div>
+            <div class='tasks'>
+                <ul id="list">
+                </ul>
+            </div>
+        </div>
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span id="close">&times;</span>
+                <h3 id='merinfo'></h3>
+                <p id='span_tickets'></p>
+                <p id='span_date'></p>
+                <p id='span_time'></p>
+                <p id='span_info'></p>
+            </div>
+        </div>
+        <br><br><br>
+    </div>
+    <div id="footer"></div>
+    <script type="text/javascript" src="search_func.js"></script>
 </body>
+
 </html>
