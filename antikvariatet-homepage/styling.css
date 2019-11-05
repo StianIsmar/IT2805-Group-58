@@ -107,7 +107,6 @@ h1 {
     width: 28px;
     top: 350px;
 }
-
 @media only screen and (max-width: 1060px) {
     #header {
         padding: 80px;
@@ -117,22 +116,40 @@ h1 {
     }
 }
 
+
+@media only screen and (max-width: 800px) {
+    #header {
+        padding: 60px;
+    }
+    #arrow_button {
+        top: 220px;
+    }
+}
+
 @media only screen and (max-width: 550px) {
     #nav a {
         /* display: none; */
         font-size: 5vw;
         padding: 4vw 2vw 4vw 2vw;
     }
-
     #nav #AK {
         font-size: 8vw;
         padding-right: 4vw;
     }
-
     h1 {
         font-size: 10vw;
     }
+    #arrow_button {
+        top: 175px;
+    }   
 }
+
+@media only screen and (max-width: 350px) {
+    #arrow_button {
+        top: 145px;
+    }
+}
+
 
 article{
     margin-left:20%;
