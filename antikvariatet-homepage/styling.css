@@ -20,6 +20,10 @@ footer {
     flex: 1;
 }
 
+input .search {
+    text-align: center;
+    background-color: red;
+}
 .left {
     background-color: #333;
     width: 100%;
