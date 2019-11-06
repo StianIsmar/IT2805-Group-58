@@ -1,76 +1,67 @@
-var d = new Date();
-
 const event_list = [
     {
-        event: "KONSERT: Balkanfest med Igor Dunder og Fetterforeningen",
+        event: "CONCERT: Balkan party with Igor Dunder and the Fetterforeningen",
         tickets: true,
-        date: d.setFullYear(2019, 12, 2),
+        date: '2019.12.02',
         time: '20:00',
-        info: `Det er så STAS at vi får avslutte høstsesongen med selveste Igor Dunder og Fetterforeningen! Balkanfest de lux! Igor og Fetterforeningen er en kombinasjon av gode venner og profesjonelle musikere som er glade i norske sanger og skjeve balkanrytmer. På albumene deres finner man tolkninger av sanger som Kråkevisa, Håvard Hedde og Gikk meg over sjø og land, Ali baba lillelam, og mye mer. På eget vis tar Igor og fetterne oss gjennom et landskap av norske sanger som har gjestet God Morgen Norge, NRK 1, 2 og 3 og det meste annet. Er de i godt humør, blir det rask dans og balkanfest i timevis. Er de i mindre godt humør, kan det bli treg og vakker musikk og nostalgisk melankoli i flere uker. Så gjør deg klar for en festkveld på Antikvariatet - her blir det stinn brakke! <br> Pris: 250,- kr`
+        info: `It is so FUN that we end the fall season with Igor Dunder and the Cousins ​​Association! Balkanfest de lux! Igor and Fetterforeningen are a combination of good friends and professional musicians who are fond of Norwegian songs and skewed Balkan rhythms. On their albums you will find interpretations of songs such as Kråkevisa, Håvard Hedde and Gik me over sea and land, Ali baba lillelam, and much more. Igor and his cousins ​​take us through a landscape of Norwegian songs that have visited Good Morning Norway, NRK 1, 2 and 3 and most everything else. If they are in a good mood, there will be fast dancing and Balkan parties for hours. If they are in a less good mood, it can be slow and beautiful music and nostalgic melancholy for weeks. So get ready for a party night at the Antiquariat - here it will be stinn bracken! Price: 250, - kr`
     },
     {
-        event: "QUIZ: Allmennquiz",
+        event: "QUIZ: Public Quiz",
         tickets: true,
-        date: 2019 - 12 - 03,
+        date: '2019.12.03',
         time: '18:00', 
-        info: `Karlsen-søstrene inviterer til ukentlig allmennquiz i bokbaren, med et solid knippe spørsmål innenfor alt av kategorier. Ta med 30 spenn i kontanter. Inntekter går til Life and Hope (lifeandhope.no).`
+        info: `The Karlsen sisters invite to weekly general quiz in the book bar, with a solid bunch of questions in all categories. Bring 30 bucks in cash. Revenue goes to Life and Hope (lifeandhope.no).`
     },
     {
-        event: "RELEASEKONSERT: Gunnhild Hasund",
+        event: "RELEASE CONCERT: Gunnhild Hasund",
         tickets: false,
-        date: 2019 - 12 - 03,
+        date: '2019.12.03',
         time: '21:00',
-        info: `Gunnhild Hasund begynte å skrive låter i 11 års alderen. En naturlig låtskriver som skriver om det som skjer i livet hennes til en hver tid. Ufiltrert og rått. En veldig undring over verden, sitt eget følelsesliv og det sosiale spillet var da som nå kilden til sangtekstene. Budskapet og tematikken forsterkes av Gunnhilds vakre stemme som klinger fra de innerste kriker og kroker av sjelen hennes, til de innerste kriker og kroker av lytternes hjerte. Dette er sårbart, dette er vakkert, dette er ærlig! Gunnhild foretrekker å lage mørke og melankolske ballader. Noen ganger er de inspirert av drømmer hun har hatt. Sanger fra det innerste med drømmelandskapets forvridning av virkeligheten. Navnet Unwired viser til en følelse av å være avkoblet fra eget følelseliv og kropp. Ledningene er rett og slett ikke plugget i. Gjennom låtskrivingen føler hun seg hel igjen. 31 Oktober slippes første del av epn Unwired og 03 November kan du få med deg releasekonserten på Antikvariatet! <br><br> Med seg har Gunnhild: <br> Lena S. Hanssen - Korist, <br> Ingeborg Brun - Korist, <br> Gerardo de La Riva - Gitar, <br> Espen Warankov Godø - Piano.`
+        info: `Gunnhild Hasund started writing songs at the age of 11. A natural songwriter who writes about what happens in her life at any given time. Unfiltered and raw. A great wonder about the world, his own emotional life and the social game was then the source of the lyrics. The message and the theme are enhanced by Gunnhild's beautiful voice that sounds from the innermost nooks and crannies of her soul, to the innermost nooks and crannies of the listeners' heart. This is vulnerable, this is beautiful, this is honest! Gunnhild prefers to create dark and melancholy ballads. Sometimes they are inspired by dreams she has had. Songs from the innermost part with the dream landscape's distortion of reality. The name Unwired refers to a feeling of being disconnected from one's own emotional life and body. The wires are simply not plugged in. Through the songwriting she feels whole again. October 31st releases the first part of the epn Unwired and 03 November you can join the release concert at Antikvariatet! <br> <br> Gunnhild with her: Lena S. Hanssen - 
+        backup singer, <br> Ingeborg Brun - backup singer, <br> Gerardo de La Riva - Guitar, <br> Espen Warankov Godø - Piano.`
     },
     {
-        event: "KONSERT: Malin Pettersen",
+        event: "CONSERT: Malin Pettersen",
         tickets: true,
         date: '2019.12.04',
         time: '20:00', 
-        info: `Siden slippet av sin første soloplate i fjor sommer har Malin Pettersen rukket å vinne Spellemannpris, bli nominert til musikkpris i USA og bli finalist i International Songwriting Competition. Etter en meget overbevisende showcase på Bylarm 2019 og en hektisk festivalsommer begir Malin seg i gang med slipp av nytt mini-album 11.oktober, som etterfølges omfattende turnering i Norge og USA. 04.november besøker hun Trondheim og Antikvariatet! Malin Pettersen fikk en pangstart på musikkarrieren da hun som 17-åring deltok i Idol i 2005, men har i løpet av det siste tiåret utviklet seg til å bli en av Norges viktigste Americana-navn. Hun har dukket opp på utgivelser til artister som Amund Maarud (offisiell side) og The Northern Belle, og hadde stor suksess med sitt eget band Lucky Lips som ga ut 3 kritikerroste album. <br> Malin Pettersen har også blitt en kjent og kjær stemme gjennom radioprogrammet "Kåbbåi" som med sin utstrakte sendetid på NRK P13 har gitt det Norske folk dypere innsikt i Countryen og Americanaens verden. Like før sommeren fikk vi en aldri så liten smakebit på ny musikk, med singelen «Pause». Etter hederlig omtale i The Rolling Stone Magazine, og kommende spillejobb på Americanafest i Nashville, er det tydelig at den internasjonale musikkscenen også har fått øynene opp for Malin Pettersen! <br> <br>
-        Dørene åpner 19:00. Konsertstart 20:00.`
+        info: `Since releasing her first solo album last summer, Malin Pettersen has managed to win the Spellemann Prize, be nominated for the Music Prize in the USA and become a finalist in the International Songwriting Competition. After a very convincing showcase at Bylarm 2019 and a hectic festival summer, Malin embarks on the release of a new mini-album on October 11, which is followed by extensive touring in Norway and the USA. On November 4th, she visits Trondheim and the Antiquarium! Malin Pettersen got a head start on her music career when she, as a 17-year-old, participated in Idol in 2005, but over the past decade has evolved to become one of Norway's most important Americana names. She has appeared on releases for artists such as Amund Maarud (official site) and The Northern Belle, and had great success with her own band Lucky Lips which released 3 critically acclaimed albums. <br> Malin Pettersen has also become a well-known and beloved voice through the radio program "Kåbbåi" which, with its extended broadcast time on NRK P13, has given the Norwegian people deeper insight into the Country and the Americas world. Just before the summer we got a never-so-small taste of new music, with the single "Pause". After an honorable mention in The Rolling Stone Magazine, and upcoming plays at Americanafest in Nashville, it is clear that the international music scene has also caught the eye of Malin Pettersen! <br> <br>
+        The doors open at 19:00. Concert start 20:00.`
     },
     {
-        event: "Lørdag på søndag!",
-        tickets: false,
-        date: '2019.12.08',
-        time: '19:00', 
-        info: `Siden 2013 har Lørdag på Søndag vært en institusjon i kultur-Trondheim. Etter søndagskonserten åpner vi opp scenen for kreti og pleti, og gir alle mulighet til å vise seg fram for et lydhørt publikum. Antikvariatet byr på piano, kontrabass, cajon, trompet, gitar, banjo og masse andre instrumenter, samt leskende drikke. Vi kjører Lørdag på Søndag hver eneste uke, uansett vær og føre!`
-    },
-    {
-        event: "Supertorsdag! med IMPROschimpro",
+        event: "Super Thursday! with IMPROschimpro",
         tickets: true,
         date: '2019.12.05',
         time: '19:00',
-        info: `En mørk og stormfull torsdagskveld klokken 20:00, Hørtes der et improvisert skrik ... Improoperatørene sniker seg inn i bokbaren på Antikvariatet på torsdag. De har med seg øks og sorte masker. Tørr du å komme?Du bør passe deg mest for Ørjan, Steffen, Solrun, Janne og Lina. De kommer til å forhekse sinnene deres med helt improviserte monologer og blodige leker. Fredrik er der også for å mane frem mørke krefter bak tangentene. 
+        info: `A dark and stormy Thursday evening at 20:00, There was an improvised scream ... Improper operators sneak into the bookstore of the Antiquarian on Thursday. They carry ax and black masks. Do you dare to come? You should look out for Ørjan, Steffen, Solrun, Janne and Lina the most. They will enchant their minds with completely improvised monologues and bloody toys. Fredrik is also there to summon dark forces behind the keys.
         <br>
-        Portene åpner 19.00. 100,- i døra kontant eller per Vipps eller sjeler.`
+        The gates open at 7pm. 100, - in the door in cash or per Vipps or souls.`
     },
     {
-        event: "PODCAST: Hodebry // Livsfarlig ulikhet",
+        event: "PODCAST: Headdress // Dangerous inequality",
         tickets: false,
-        date: 2019 - 12 - 05,
+        date: '2019.12.06',
         time: '18:00 - 19:30', 
-        info: `Vi har en tanke i Norge om velferdssamfunnet som tar vare på alle uansett om du er fattig eller rik, bor i by eller bygd, liten eller stor, mann eller kvinne. Men om man ser nøyere på det er ikke dette tilfellet. Det har faktisk mye å si hvem du er når det gjelder dødelighet, fysisk og psykisk sykdom, utsikter for arbeid og trivsel i arbeidet osv. Det er stor ulikhet og stor forskjellsbehandling. Og den er i ferd med å øke. Professor Terje A. Eikemos forskning på temaet har fått internasjonal oppmerksomhet og vi ser nærmere på det i kveld.`
+        info: `We have a thought in Norway about the welfare society that takes care of everyone, whether you are poor or rich, living in a city or village, small or large, male or female. But if you look at it more closely, this is not the case. In fact, it has a lot to say about who you are in terms of mortality, physical and mental illness, prospects for work and job satisfaction, etc. There is great inequality and great discrimination. And it's about to increase. Professor Terje A. Eikemo's research on the subject has received international attention and we will look into it tonight.`
+    },
+    {
+        event: "Saturday on sunday!",
+        tickets: false,
+        date: '2019.12.08',
+        time: '19:00', 
+        info: `Since 2013, Saturday on Sunday has been an institution in culture-Trondheim. After the Sunday concert, we open the stage for Creti and Pleti, giving everyone the opportunity to show off to a responsive audience. The antique variety offers piano, double bass, cajon, trumpet, guitar, banjo and lots of other instruments, as well as mouth-watering drinks. We run Saturday on Sunday every single week, whatever the weather!`
     },
 ];
 for (i = 0; i < event_list.length; i++) {
     var node = document.createElement("li");
-    var text = event_list[i].event;
+    var text = event_list[i].event + ' - ' + event_list[i].date;
     var textnode = document.createTextNode(text);
     node.appendChild(textnode);
     node.id = i;
     node.setAttribute("onclick", `show_info(${i})`)
     document.getElementById("list").appendChild(node);
-    }
-    console.log("1) "+  new Date().toDateString());
-    console.log("2) "+  new Date().toISOString());
-    console.log("3) "+  new Date().toJSON());
-    console.log("4) "+  new Date().toLocaleDateString());
-    console.log("5) "+  new Date().toLocaleString());
-    console.log("6) "+  new Date().toLocaleTimeString());
-    console.log("7) "+  new Date().toString());
-    console.log("8) "+  new Date().toISOString().slice(0,10));
+}
 
 function show_info(e) {
     var modal = document.getElementById('myModal')
@@ -83,17 +74,29 @@ function show_info(e) {
           modal.style.display = "none";
         }
     }
-    document.getElementById('merinfo').textContent = 'Mer informasjon om ' + event_list[e].event;
-    document.getElementById('span_tickets').innerHTML = 'Ledige billetter: ' + event_list[e].tickets;
-    document.getElementById('span_time').innerHTML = 'Arrangementet starter kl.: ' + event_list[e].time;
-    document.getElementById('span_date').innerHTML = 'Dato: ' + event_list[e].date;
+    document.getElementById('merinfo').textContent = 'More information about ' + event_list[e].event;
+    document.getElementById('span_tickets').innerHTML = 'Avaliable tickets: ' + event_list[e].tickets;
+    document.getElementById('span_time').innerHTML = 'The event starts at: ' + event_list[e].time;
+    document.getElementById('span_date').innerHTML = 'Date: ' + event_list[e].date;
     document.getElementById('span_info').innerHTML = event_list[e].info;
     
     if (event_list[e].tickets === true) {
         document.getElementById('span_tickets').style.color = 'green';
+        document.getElementById('span_button').innerHTML = 'Register for event';
+        document.getElementById('span_button').style.background = 'green';
+        document.getElementById('span_button').disabled = false;
+
     } else {
         document.getElementById('span_tickets').style.color = 'red';
+        document.getElementById('span_button').innerHTML = 'Sold out';
+        document.getElementById('span_button').style.background = 'lightgrey';
+        document.getElementById('span_button').disabled = true;
     }
+}
+function button_click() {
+    alert("You are registered for the event!")
+    document.getElementById('span_button').style.background = 'orange';
+    document.getElementById('span_button').innerHTML = 'You are registered!';
 }
 
 function filter_search(e) {
