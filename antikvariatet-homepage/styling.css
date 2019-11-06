@@ -9,6 +9,11 @@ body {
     font-weight: 400;
 
 }
+html {
+    scroll-behavior: smooth;
+  }
+
+/* CSS for About us */
 .fadeIn {
     animation: fadeEffect 3s;
     visibility: visible;
@@ -17,17 +22,61 @@ body {
     visibility: hidden;
 }
 .about {
-    animation-direction: reverse; 
     visibility: hidden;
 }
-@keyframes fadeEffectOut {
+/*@keyframes fadeEffectOut {
     from {opacity: 1;}
     to {opacity: 0;}
-}
+}*/
 @keyframes fadeEffect {
     from {opacity: 0;}
     to {opactiry:1;}
 }
+/*li {
+    bul
+}*/
+#about-us {
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 0%;
+    color: white;
+    display: block;
+    animation: fadeEffect 3s;
+    font-style: Verdana;
+    font-size: 3.5vw;
+}
+#arrow {
+    margin-top: -40px;
+    width: 10%;
+    height: 10%;
+}
+@media only screen and (min-width:600px) {
+    #about-us {
+        font-size: 25px;
+        margin-top: -130px;
+    }
+    #arrow {
+        margin-top: -100px;
+        width: 70px;
+        height: 70px;
+    }
+}
+/* CSS Restaurant*/
+#meny {
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 100%;
+    margin-bottom: 10%;
+}
+#menu-title {
+    margin-top: 30px;
+    text-align: center;
+    display: block;
+}
+
+
+
 footer {
     display: flex;
     align-items: center;
@@ -81,6 +130,7 @@ h1 {
     font-weight: 100;
     font-size: 60px;
 }
+
 #nav {
     top: 0;
     margin: 0;
@@ -111,8 +161,10 @@ h1 {
 
 
 article{
+    margin-top: 10%;
     margin-left:20%;
     margin-right:20%;
+    margin-bottom: 20%;
 }
 
  .container{
