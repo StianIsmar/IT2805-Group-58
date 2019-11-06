@@ -14,7 +14,6 @@ onload = () => {
   var title = document.title;
   var underlineNav = document.getElementById(title);
   underlineNav.className = "active";
-  console.log(underlineNav.id);
   if (underlineNav.id == 'Events') {
     header.style.backgroundImage = "url('img/eventos3.jpeg')";
   } else if (underlineNav.id == 'Restaurant'){
