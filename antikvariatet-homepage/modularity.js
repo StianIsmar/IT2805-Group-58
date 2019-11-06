@@ -18,7 +18,7 @@ onload = () => {
   if (underlineNav.id == 'Events') {
     header.style.backgroundImage = "url('img/eventos3.jpeg')";
   } else if (underlineNav.id == 'Restaurant'){
-    header.style.backgroundImage = "url('img/room6.jpeg')";
+    header.style.backgroundImage = "url('img/room8.jpeg')";
   }else if (underlineNav.id == 'Contact'){
     header.style.backgroundImage = "url('img/gitar2.jpeg')";
   }
