@@ -17,10 +17,11 @@ onload = () => {
   underlineNav.className = "active";
   console.log(underlineNav.id);
   if (underlineNav.id == 'Events') {
-    console.log("trying");
-    var blah = document.getElementById(header);
-    console.log(blah)
-    header.style.backgroundImage = "url('img/eventos2.jpeg')";
+    header.style.backgroundImage = "url('img/eventos3.jpeg')";
+  } else if (underlineNav.id == 'Restaurant'){
+    header.style.backgroundImage = "url('img/room6.jpeg')";
+  }else if (underlineNav.id == 'Contact'){
+    header.style.backgroundImage = "url('img/gitar2.jpeg')";
   }
 
   // Modular footer
