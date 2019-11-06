@@ -11,6 +11,6 @@ function displayOnScroll() {
 }
 
 function getAbout() {
-    window.scrollTo(0,200);
+    window.scrollTo(0,350);
     document.getElementById("about").className = "fadeIn";
 }
