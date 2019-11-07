@@ -20,6 +20,9 @@ onload = () => {
     header.style.backgroundImage = "url('img/room6.jpeg')";
   } else if (underlineNav.id == "Contact") {
     header.style.backgroundImage = "url('img/gitar2.jpeg')";
+  } else if (underlineNav.id == "AK") {
+    header.style.backgroundImage = "url('img/eventos3.jpeg')";
+    header.style.animation = "fadeEffect 3s";
   }
 
   // Modular footer

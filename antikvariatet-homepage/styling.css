@@ -58,6 +58,7 @@ article{
     margin-top: -40px;
     width: 10%;
     height: 10%;
+    cursor: pointer;
 }
 @media only screen and (min-width:600px) {
     #about-us {
@@ -209,7 +210,6 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
     line-height: 2;
-    animation: fadeEffect 3s;
 }
 
 h1 {
