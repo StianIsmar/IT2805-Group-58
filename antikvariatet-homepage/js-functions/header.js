@@ -17,7 +17,13 @@ onload = () => {
   if (underlineNav.id == "Events") {
     header.style.backgroundImage = "url('img/eventos3.jpeg')";
   } else if (underlineNav.id == "Restaurant") {
-    header.style.backgroundImage = "url('img/cafe.jpg')";
+    if (window.matchMedia("(max-width: 800px)").matches){
+      header.style.backgroundImage = "url('img/cafee2.jpeg')";
+      console.log('ghjkdf');
+    } else {
+      header.style.backgroundImage = "url('img/cafe.jpg')";
+      console.log('totototot');
+    }
   } else if (underlineNav.id == "Contact") {
     header.style.backgroundImage = "url('img/gitar2.jpeg')";
   } else if (underlineNav.id == "AK") {
