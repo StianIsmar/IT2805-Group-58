@@ -198,7 +198,6 @@ header{
     overflow: hidden;
     
     margin: 0 auto;
-    background-image: url("img/library 2.jpeg");
     /* padding: 140px; */
     padding: 10%;
     background-position: 100% 100%;
@@ -209,7 +208,6 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
     line-height: 2;
-    animation: fadeEffect 3s;
 }
 
 h1 {
@@ -308,12 +306,12 @@ h1 {
     text-align: left;
 } 
 
-ul {
+#list {
     text-align: center;
     list-style-position: inside;
     list-style-type: none;
 }
-li {
+#list li {
     margin: 10px 0;
 }
 
@@ -321,7 +319,7 @@ li {
     text-align: center;
 }
 
-ul li:hover {
+#list li:hover {
     color: rgba(141, 140, 140, 0.897);
     cursor: pointer;
 }
