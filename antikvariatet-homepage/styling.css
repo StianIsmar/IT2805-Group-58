@@ -206,7 +206,6 @@ header{
     background-position: right top;
     background-attachment: fixed;
     background-size: 100%;
-    font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
     line-height: 2;
 }
@@ -215,7 +214,7 @@ h1 {
     text-align: center;
     color: white;
     display:block;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 60px;
 }
 
