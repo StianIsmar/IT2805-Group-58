@@ -28,8 +28,18 @@ article{
     margin-top: 10%;
     margin-left:20%;
     margin-right:20%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
+.article {
+    border-radius: 5px;
+    background-color: lightgrey;
+    padding: 30px;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    text-align: left;
+} 
 /*@keyframes fadeEffectOut {
     from {opacity: 1;}
     to {opacity: 0;}
@@ -80,10 +90,10 @@ article{
         margin-top: 7%;
         margin-left:20%;
         margin-right:20%;
-        margin-bottom: 20%;
+        margin-bottom: 10%;
     }
 }
-/* CSS Restaurant*/
+/*-------------------- CSS Restaurant -------------------*/
 #the-menu {
     text-align: center;
     margin: 50px;
@@ -306,6 +316,9 @@ h1 {
     text-align: center;
 } 
 
+li {
+    list-style-type: none;
+}
 #list {
     text-align: center;
     list-style-position: inside;
