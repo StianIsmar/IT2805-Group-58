@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>P3</title>
-    <link rel="stylesheet" type="text/css" href="./css/styling.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>P3</title>
+<link rel="stylesheet" type="text/css" href="./css/styling.css">
 </head>
 
-<body>
+<body class="p3">
     <div class="container">
         <ul>
             <li class="one"><a href="p1.html">P1</a></li>
@@ -41,89 +41,251 @@
                 Administrative Details
             </h3>
             <p>
-                Antikvariatet is a cozy bar/pub/café/venue located at Bakklandet in Trondheim. It offers a great assortment of beers as well as outside serving. The inside of Antikvariatet consists of two separated areas. One offers a calm, laid-back atmosphere while
-                the other hosts various kinds of events. The events ranges from small concerts and standup comedy to cultural performances and social debates.
-            </p>    
-    
-    <h3>Final file structure</h3>
-        <h4>This is how our files and folders are organized. </h4>
-        <dl style="text-align: left">
-            <dt>Homepage.html</dt>
-            <dt>Restaurant.html</dt>
-            <dt>Events.html</dt>
-            <dt>Contact.html</dt>
-            <dt>js-functions/</dt>
-            <dd>- search-func.js</dd>
-            <dd>- appear_on_scroll.js</dd>
-            <dd>- about_us_arrow.js</dd>
-            <dd>- footer.js</dd>
-            <dd>- header.js</dd>
-            <dt>img/</dt>
-            <dd>- cafe.jpeg</dd>
-            <dd>- eventos3.jpeg</dd>
-            <dd>- gitar2.jpeg</dd>
-            <dd>- white-arrow.png</dd>
-            <dt>css/</dt>
-            <dd>- styling.css</dd>
-        </dl>
+                Antikvariatet is a cozy bar/pub/café/venue located at Bakklandet in Trondheim. It offers a great
+                assortment of beers as well as outside serving. The inside of Antikvariatet consists of two separated
+                areas. One offers a calm, laid-back atmosphere while
+                the other hosts various kinds of events. The events ranges from small concerts and standup comedy to
+                cultural performances and social debates.
+            </p>
+            <h3>
+                Changes from P2
+            </h3>
+            <h4>
+                Page layout and appearance
+            </h4>
+            <p>
+                We decided to use font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+                Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; instead of Times.
+                <br>
+                <br>
+                Instead of having a margin on either side of the headings, we decided simply to center the title and use
+                a 60px font size.
+            </p>
+            <h4>
+                Fonts
+            </h4>
+            <p>
+                The font size in the navbar was changed from 20px to 30px. The font size for the paragraphs, 16px, was
+                kept as in P2.
+            </p>
+            <h4>Content changes
+            </h4>
+            <p>Here we will present the changes that were made to the files in the project from P2.</p>
+            <br><br>
+            <h5 class="h4-heading">Homepage.html
+            </h5>
+            <p>
+                Our team decided to remove some of the pictures in Homepage.html. The image of the beer and chairs, from
+                P2, were not visually pleasing enough. They gave the whole homepage a messy look.
 
-    <table style="width:100%; ">
-        <tr>
-            <th>Filename</th>
-            <th>Description</th>
-            <th>Person in charge</th>
-        </tr>
-        <tr>
-            <td>Homepage.html</td>
-            <td>The homepage - contains the "about us"-page</td>
-            <td>Morten</td>
-        </tr>
-        <tr>
-            <td>Restaurant.html</td>
-            <td>This page holds the meny for Antikvariatet</td>
-            <td>Stian</td>
-        </tr>
-        <tr>
-            <td>Events.html</td>
-            <td>The Event page contains a list off all upcoming events. You can click on an event to see more information and register to the event</td>
-            <td>Kari Anne</td>
-        </tr>
-        <tr>
-            <td>Contact.html</td>
-            <td>Contact information </td>
-            <td>Ophelia</td>
-        </tr>
-        <tr>
-            <td>styling.css</td>
-            <td>This file contains all the styling of the webpage</td>
-            <td>All</td>
-        </tr>
-        <tr>
-            <td>footer.js</td>
-            <td>The footer on all the .html-pages. Conatins links to Antikvariatets social media-pages and a map showing the location of the cafe</td>
-            <td>Stian</td>
-        </tr>
-        <tr>
-            <td>header.js</td>
-            <td>The header of all .html-pages. Cointain a navbar on the top, to navigate between the different pages. </td>
-            <td>Morten</td>
-        </tr>
-        <tr>
-            <td>search_func.js</td>
-            <td>The main function on the Event.html-page. The file contains an list of objects for all events, and enables the user to see more information about a specific event when clicking it.</td>
-            <td>Kari Anne</td>
-        </tr>
-        <tr>
-            <td>appear_on_scroll.js</td>
-            <td>This js-function is impelemted on the Restaurant-page and the Homepage. If makes the text on the page visible on scroll</td>
-            <td>Ophelia</td>
-        </tr>
-        <tr>
-            <td>about_us_arrow.js</td>
-            <td>This js-function is impelemted on the Restaurant-page and on the Homepage. It makes the page scroll down and show the content on click</td>
-            <td>Ophelia</td>
-        </tr>
-    </table>
+                The image in the background in Homepage.html was changed from the design report. The reasoning behind
+                this was that the new images makes it easier to read the text in the nav bar, as well as the log for
+                ANTIKVARIATET.
+
+                Restaurant.html
+                We decided that image manipulation to prevent slow-loading is outside of the scope of the assignment.
+
+                The image in Restaurant.html was swapped for a more gentle image of a cup of coffee. The colours in the
+                image look better than the original image from the design report. The text on top of the image is easier
+                to look at as well.
+            </p>
+            <h5 class="h4-heading">Event.html</h5>
+
+            <p>
+                The header on the page contains no buttons, as it was supposed to. Instead, the events are rendered as
+                you enter the page, and you can choose to register to one if you click on the event to see more info.
+                The event list is ordered by date, but it is not automatically filtered. We choose to manually code the
+                dates so that it looks like the list is sorted. Since we did not specify filtering of the list in the
+                requirements, we think this is a good solution for now, but it could be a possible future extension.
+
+                In P2 design, we discussed having a calendar to show the events. This functionality was dropped.
+
+                The background image was changed from the one in the P2 design. The new image makes it easier to read
+                the text. The “Events” text was also changed to white from blue for easier reading.
+            </p>
+
+            <h5 class="h4-heading">Contact.html</h5>
+            <p>We decided to specify the contact information in a separate page, in addition to the contact information
+                in the footer. Looking back at P2, it was a bit unclear whether we were having a seperate contact us
+                html.
+            </p>
+
+            <h5 class="h4-heading">Footer.js </h5>
+            <p>The icons in the footer were form the FontAwesome API, and look a little different than the icons in P2.
+                These social media icons have a white fill colour, which is easier to see than the darker icon colours
+                in P2.
+
+                The iframe map was in P2 a little more zoomed in upon page load. For the sake of the tourists in
+                Trondheim, we decided to have the map a little more zoomed out.
+            </p>
+
+            <h5 class="h4-heading">Header.js</h5>
+            <p>At a certain screen width, the navbar was originally supposed to collapse to a dropdown icon. We decided
+                to omit this function. Instead it scales with respect to the screen width and becomes smaller to keep it
+                responsive. To make it easier for the user to navigate and keep track of where they are, it was decided
+                to add an underline under the current page link in navbar. The “Antikvariatet” logo linking to the
+                homepage was included in navbar for simplicity.
+
+                All the pictures from P2 were replaced to make the website look more intriguing and professional. The
+                pictures for Homepage, Events and Contact were provided by Antikvariatet’s own facebook page to give the
+                user a glimpse of Antikvariatet’s cozy atmosphere. The cafe image for Restaurant was chosen to be in
+                compliance with page content.
+            </p>
+
+            <h5 class="h4-heading">Styling.css</h5>
+            <p>We did not mention this in p2, but we wanted to implement the css-file as straightforward and clean as
+                possible. We grouped the document by commenting for every page that we styled. </p>
+
+            <h5 class="h4-heading">Changes in file structure</h5>
+            <p>Originally, the footer and header were under one file called “modularity.js”. We decided to split the
+                Footer.js and Header.js into two files, to make the file structure more clear. If someone wants to
+                change the modularity elements at a later time, it is now easy to see which file contains the footer and
+                header elements.
+
+                The navbar was originally supposed to be a separate file as well. It was decided to include it in
+                header.js since it is a natural part of the header.
+
+                The register_to_event.js and search_funk.js files were merged to the file “search_func.js”, since they
+                shared logic. Additionally, register_to_event.js contained very little code, so our team decided to
+                place the files register_to_event.js and search_func.js in one file “search_func.js”
+            </p>
+
+            <h5 class="h4-heading">Other changes</h5>
+            <p>We translated the norwegian texts to english to appeal to a broader audience.</p>
+
+            <br><br>
+            <h4>Minimum requirements (JS)</h4>
+            <p>In this section we will present how the javascript requirements are fulfilled, and who completed them.</p>
+
+            <h5 class="h4-heading">Footer.js</h5>
+            <p>The requirement for modularity for the footer was handled in the footer.js file by Stian. We did this
+                through Java Script by calling a certain empty element and filling it with the footer and header
+                elements.
+            </p>
+
+            <h5 class="h4-heading">Header.js</h5>
+            <p>The requirement for modularity for the header was handled in the header.js file by Morten. When entering
+                one of the pages, a JavaScript function will load the header and navbar. They do no have the same header
+                picture so the function checks which page it has entered and grabs the correct picture. It also
+                underlines the correct page in navbar.
+
+                We used media queries in css to make the header and navbar responsive. The images were of different
+                sizes and some made it difficult to read the text when resizing the screen. When the screen width is
+                below 550px the navbar and header size scales to fit smaller screens. The arrow button’s position is
+                also updated. When the screen width is below 350px the arrow button’s position is updated once more.
+
+                The “Restaurant” header picture did not resize nicely and needed special treatment. A JavaScript
+                function that checks if it’s on the “Restaurant” page and if the screen width is smaller than 880px
+                loads a differently cropped image deals with this.
+            </p>
+
+            <h5 class="h4-heading">Search_func.js</h5>
+            <p>Kari Anne has implemented a JavaScript function that lets the user search for specific events on the
+                Events page. A list of objects contains information about each event. When entering the page, all the
+                event names are rendered. If you click on an event, a modal containing more information about the
+                specific event will show. You can click on a button in the modal to register to the event. </p>
+
+            <h5 class="h4-heading">Arrow_scroll.js</h5>
+            <p>Ophelia implemented the javaScript function arrow_scroll. If the user clicks on the arrow which is used
+                in both the homepage.html and restaurant.html, the page will scroll down to the content while the
+                content fades in. The function uses the function scrollTo which takes in 0 as x value, and the current
+                offset height of the header as y. This makes the window scroll down the height of the header so it
+                “disappears”.</p>
+
+            <h5 class="h4-heading">Appear_on_scroll.js</h5>
+            <p>The appear_on_scroll javascript function was implemented by Ophelia. It uses eventlistener so that when
+                the user scrolls the window the function “displayOnScroll” will fire. The function uses the scrollTop
+                property which returns the number of pixels the window is scrolled vertically. If it returns a number
+                higher then 50, it will change the classname of the context, and make it fade in smoothly. If the user
+                already pushed the arrow button to make it appear, nothing will happen. The text is already faded in</p>
+
+
+
+            <h3>Final file structure</h3>
+            <h4>This is how our files and folders are organized. </h4>
+            <dl style="text-align: left">
+                <dt>Homepage.html</dt>
+                <dt>Restaurant.html</dt>
+                <dt>Events.html</dt>
+                <dt>Contact.html</dt>
+                <dt>js-functions/</dt>
+                <dd>- search-func.js</dd>
+                <dd>- appear_on_scroll.js</dd>
+                <dd>- about_us_arrow.js</dd>
+                <dd>- footer.js</dd>
+                <dd>- header.js</dd>
+                <dt>img/</dt>
+                <dd>- cafe.jpeg</dd>
+                <dd>- eventos3.jpeg</dd>
+                <dd>- gitar2.jpeg</dd>
+                <dd>- white-arrow.png</dd>
+                <dt>css/</dt>
+                <dd>- styling.css</dd>
+            </dl>
+
+            <table style="width:100%;">
+                <tr>
+                    <th>Filename</th>
+                    <th>Description</th>
+                    <th>Person in charge</th>
+                </tr>
+                <tr>
+                    <td>Homepage.html</td>
+                    <td>The homepage - contains the "about us"-page</td>
+                    <td>Morten</td>
+                </tr>
+                <tr>
+                    <td>Restaurant.html</td>
+                    <td>This page holds the meny for Antikvariatet</td>
+                    <td>Stian</td>
+                </tr>
+                <tr>
+                    <td>Events.html</td>
+                    <td>The Event page contains a list off all upcoming events. You can click on an event to see more
+                        information and register to the event</td>
+                    <td>Kari Anne</td>
+                </tr>
+                <tr>
+                    <td>Contact.html</td>
+                    <td>Contact information </td>
+                    <td>Ophelia</td>
+                </tr>
+                <tr>
+                    <td>styling.css</td>
+                    <td>This file contains all the styling of the webpage</td>
+                    <td>All</td>
+                </tr>
+                <tr>
+                    <td>footer.js</td>
+                    <td>The footer on all the .html-pages. Conatins links to Antikvariatets social media-pages and a map
+                        showing the location of the cafe</td>
+                    <td>Stian</td>
+                </tr>
+                <tr>
+                    <td>header.js</td>
+                    <td>The header of all .html-pages. Cointain a navbar on the top, to navigate between the different
+                        pages. </td>
+                    <td>Morten</td>
+                </tr>
+                <tr>
+                    <td>search_func.js</td>
+                    <td>The main function on the Event.html-page. The file contains an list of objects for all events,
+                        and enables the user to see more information about a specific event when clicking it.</td>
+                    <td>Kari Anne</td>
+                </tr>
+                <tr>
+                    <td>appear_on_scroll.js</td>
+                    <td>This js-function is impelemted on the Restaurant-page and the Homepage. If makes the text on the
+                        page visible on scroll</td>
+                    <td>Ophelia</td>
+                </tr>
+                <tr>
+                    <td>about_us_arrow.js</td>
+                    <td>This js-function is impelemted on the Restaurant-page and on the Homepage. It makes the page
+                        scroll down and show the content on click</td>
+                    <td>Ophelia</td>
+                </tr>
+            </table>
 </body>
 
 </html>
