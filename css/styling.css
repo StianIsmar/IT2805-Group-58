@@ -280,3 +280,14 @@ td {
 #link1 {
     color: white;
 }
+
+.p3 h4{
+    text-align: left;
+
+}
+
+.h4-heading {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
