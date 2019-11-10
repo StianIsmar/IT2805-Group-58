@@ -26,8 +26,8 @@ html {
 }
 article{
     margin-top: 10%;
-    margin-left:20%;
-    margin-right:20%;
+    margin-left:10%;
+    margin-right:10%;
     margin-bottom: 10%;
 }
 .article {
@@ -40,17 +40,10 @@ article{
     margin-top: 60px;
     text-align: left;
 } 
-/*@keyframes fadeEffectOut {
-    from {opacity: 1;}
-    to {opacity: 0;}
-}*/
 @keyframes fadeEffect {
     from {opacity: 0;}
     to {opactiry:1;}
 }
-/*li {
-    bul
-}*/
 #about-us {
     text-align: center;
     margin-top: -100px;
@@ -86,12 +79,6 @@ article{
     #menu-title {
         margin-bottom: 40px;
     }
-    article{
-        margin-top: 7%;
-        margin-left:20%;
-        margin-right:20%;
-        margin-bottom: 10%;
-    }
 }
 /*-------------------- CSS Restaurant -------------------*/
 #the-menu {
@@ -104,6 +91,7 @@ article{
     margin-left: 10vw;
     margin-bottom: 60px;
     margin-top: 60px;
+    
 }
 #menu-title {
     margin-bottom: 30px;
@@ -179,6 +167,15 @@ footer .right{
         padding-bottom: 50px;
 
       }
+      article{
+        margin-top: 10%;
+        margin-left:5%;
+        margin-right:5%;
+        margin-bottom: 10%;
+    }
+    #the-menu {
+        font-size: 15px;
+    }
   }
   
 
@@ -288,19 +285,27 @@ h1 {
     #menu-title {
         margin-bottom: 20px;
     }
-    #span_button {
-    float: right;
-    position: absolute;
-    right: 10px;
-    margin-bottom: 40px;
-    padding: 10px;
-    border-radius: 3px;
+    article{
+        margin-top: 10%;
+        margin-left:5%;
+        margin-right:5%;
+        margin-bottom: 10%;
     }
 }
 
 @media only screen and (max-width: 350px) {
     #about-us {
         margin-top: -55px;
+    }
+    article{
+        margin-top: 10%;
+        margin-left:0%;
+        margin-right:0%;
+        margin-bottom: 10%;
+    }
+    #the-menu {
+        font-size: 11px;
+        padding: 4px;
     }
 }
 
