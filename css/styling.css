@@ -291,3 +291,15 @@ td {
     font-size: 15px;
     font-weight: 600;
 }
+
+#p4_list {
+    padding-top: 200px;
+}
+
+#positive {
+    padding-top: 20px;
+}
+
+#interview {
+    padding-top: 30px;
+}

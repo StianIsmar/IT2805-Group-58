@@ -288,6 +288,14 @@ h1 {
     #menu-title {
         margin-bottom: 20px;
     }
+    #span_button {
+    float: right;
+    position: absolute;
+    right: 10px;
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 3px;
+    }
 }
 
 @media only screen and (max-width: 350px) {
